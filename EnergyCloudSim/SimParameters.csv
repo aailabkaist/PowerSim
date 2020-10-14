@@ -1,0 +1,11 @@
+data_dir,data
+result_dir,result
+LD csv,LD.csv
+LD_P csv,LD_P.csv
+LD_Q csv,LD_Q.csv
+BS csv,BS.csv
+BR csv,BR.csv
+BR_Z csv,BR_Z.csv
+v_slack,252.1866
+end time,1440
+ESS_P csv,ESS_spec.csv

@@ -1,0 +1,61 @@
+SimulationEngine 수정 내역
+
+1. GridStructure.py
+	- line 41 에 다음 코드 추가하여 GridStructure가 초기화 될 때 내부 변수를 초기화 한다.
+	  이 정보를 삭제해줘야 차트가 처음 Timestep부터 그려짐
+
+	def initialize(self, config):
+	
+	    # added by pietrok for reset class variables
+        GridStructure.b_Initialized = False
+        GridStructure.BS = []
+        GridStructure.HH_infos = {}
+        GridStructure.ESS_infos = {}
+        GridStructure.BR_infos = {}
+        GridStructure.name = ""
+        # end of added
+        
+        
+     - line 110 부근의 다음 코드중 "with open(filename, "w", encoding= ~~~" 라인 및 
+       다음 라인을 한 단계 들여쓰기 한다.(버그)
+     def generateOutputFiles(self):
+     	# LD_V files
+     	for id in self.ids:
+     		filename = os.path.join(self.result_dir, "LDV_" + str(id) + ".csv")
+     		#filename = "LDV_" + str(id) + ".csv"
+     		with open(filename, "w", encoding= ~~~
+        
+        
+2. MicroGridSystem.py
+  - line 101 에 다음 코드 추가하여, Household 클래스가 0번부터 생성되도록 함.
+
+  # added by pietrok for rest Household_id to 0
+  Household.Household_ID = 0
+  # end of added
+  
+  for hh_init in hh_initials:
+   
+  
+3. SimulationEngine/SimulationEngine.py
+
+	- 다음 function 추가하여, SimulationEngine외부에서 시뮬레이션을 한 스탭씩 실행시킬 수 있음.
+	
+    def runInitializeForExternal(self, maxTime = -1, ta=-1, logFileName=-1, logGeneral=False,logActivateState=False,logActivateMessage=False,logActivateTA=False,logStructure=False):
+        self.maxTime = maxTime
+        self.ta = ta;
+        self.logger =  Logger(self,logFileName,logGeneral,logActivateState,logActivateMessage,logActivateTA,logStructure)
+
+        self.runInitialize()
+        
+        
+        
+4. 시뮬레이션엔진 실행 준비 작업
+ 
+        self.microgrid = MicroGridSystem(self.sim_config)
+
+        self.show_household_info(self.household_id)
+
+        self.simulationEngine = SimulationEngine()
+        self.simulationEngine.setOutmostModel(self.microgrid)
+        self.simulationEngine.runInitializeForExternal(maxTime=int(endTimeText), logFileName="EnergyCloudSim_log.txt")
+
