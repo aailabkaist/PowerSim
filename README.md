@@ -42,7 +42,7 @@ six==1.15.0
 Please install required packages through ``` python -m pip install -r requirements.txt ``` in Visualizer folder.
 
 
-## Run Visualizer
+## run Visualizer
 we provides guidance document ''' EnergyCloudSim Visualizer 사용법.docx ''' in Visualizer folder.
 
 Run with the following script:
