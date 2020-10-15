@@ -11,7 +11,7 @@ networkX
 xlrd
 pandas
 ```
-Please install required packages through ``` python -m pip install xxx ``` in EnergyCloudSim folder.
+Please install required packages through ``` python -m pip install xxx ```.
 
 ## Run Simulation
 We provide guidance document ''' EnergyCloudSim Manual.docx '''.
