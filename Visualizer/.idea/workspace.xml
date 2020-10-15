@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c56a01-f665-4b3e-b121-921a8994a647" name="Default Changelist" comment="" />
+    <list default="true" id="91c56a01-f665-4b3e-b121-921a8994a647" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JupyterTrust" id="dbc17742-9109-4933-955d-9b5f4ae8bc5e" />
   <component name="ProjectId" id="1irK0lKe3gvBy3RXg8Wy2gVQSXK" />
@@ -17,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager">
     <configuration name="Visualizer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -59,7 +67,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602660054502</updated>
-      <workItem from="1602660055559" duration="110000" />
+      <workItem from="1602660055559" duration="706000" />
+      <workItem from="1602663592245" duration="1215000" />
+      <workItem from="1602752747877" duration="161000" />
     </task>
     <servers />
   </component>
@@ -71,25 +81,34 @@
       <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="2024" y="470" width="981" height="986" key="CommitChangelistDialog2/56.747.1864.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1598960902515" />
-    <state width="1146" height="558" key="GridCell.Tab.0.bottom" timestamp="1598961214539">
-      <screen x="1920" y="0" width="1200" height="1920" />
-    </state>
-    <state width="1146" height="558" key="GridCell.Tab.0.bottom/56.747.1864.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1598961214539" />
-    <state width="1146" height="558" key="GridCell.Tab.0.center" timestamp="1598961214539">
-      <screen x="1920" y="0" width="1200" height="1920" />
-    </state>
-    <state width="1146" height="558" key="GridCell.Tab.0.center/56.747.1864.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1598961214539" />
-    <state width="1146" height="558" key="GridCell.Tab.0.left" timestamp="1598961214539">
-      <screen x="1920" y="0" width="1200" height="1920" />
-    </state>
-    <state width="1146" height="558" key="GridCell.Tab.0.left/56.747.1864.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1598961214539" />
-    <state width="1146" height="558" key="GridCell.Tab.0.right" timestamp="1598961214539">
-      <screen x="1920" y="0" width="1200" height="1920" />
-    </state>
-    <state width="1146" height="558" key="GridCell.Tab.0.right/56.747.1864.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1598961214539" />
-    <state x="764" y="165" key="SettingsEditor" timestamp="1602660135473">
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1602752727785">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@0.0.1920.1160" timestamp="1602752727785" />
+    <state width="1157" height="559" key="GridCell.Tab.0.bottom/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@1920.-169.1200.1880" timestamp="1602661803823" />
+    <state width="1146" height="558" key="GridCell.Tab.0.bottom/56.747.1864.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1598961214539" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1602752727785">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.center/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@0.0.1920.1160" timestamp="1602752727785" />
+    <state width="1157" height="559" key="GridCell.Tab.0.center/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@1920.-169.1200.1880" timestamp="1602661803822" />
+    <state width="1146" height="558" key="GridCell.Tab.0.center/56.747.1864.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1598961214539" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1602752727785">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.left/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@0.0.1920.1160" timestamp="1602752727785" />
+    <state width="1157" height="559" key="GridCell.Tab.0.left/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@1920.-169.1200.1880" timestamp="1602661803822" />
+    <state width="1146" height="558" key="GridCell.Tab.0.left/56.747.1864.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1598961214539" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1602752727785">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.right/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@0.0.1920.1160" timestamp="1602752727785" />
+    <state width="1157" height="559" key="GridCell.Tab.0.right/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@1920.-169.1200.1880" timestamp="1602661803822" />
+    <state width="1146" height="558" key="GridCell.Tab.0.right/56.747.1864.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1598961214539" />
+    <state x="764" y="165" key="SettingsEditor" timestamp="1602752836676">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="764" y="165" key="SettingsEditor/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@0.0.1920.1160" timestamp="1602752836676" />
     <state x="764" y="165" key="SettingsEditor/1920.-169.1200.1880/0.0.1920.1160/-1920.-15.1920.1160@1920.-169.1200.1880" timestamp="1602660135473" />
     <state x="2275" y="631" width="641" height="664" key="svn.repositoryBrowser" timestamp="1598960848378">
       <screen x="1920" y="0" width="1200" height="1920" />
@@ -102,6 +121,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Visualizer$Visualizer.coverage" NAME="Visualizer Coverage Results" MODIFIED="1598960706331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Visualizer_py$Visualizer.coverage" NAME="Visualizer Coverage Results" MODIFIED="1602660168070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Visualizer_py$Visualizer.coverage" NAME="Visualizer Coverage Results" MODIFIED="1602752613636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
