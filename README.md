@@ -14,6 +14,8 @@ pandas
 Please install required packages through ``` python -m pip install xxx ``` in EnergyCloudSim folder.
 
 ## Run Simulation
+We provide guidance document ''' EnergyCloudSim Manual.docx '''.
+
 Related hyperparameters are in SimParameters.csv. 
 Configuration can be controlled SimParameters.csv.
 
@@ -43,7 +45,7 @@ Please install required packages through ``` python -m pip install -r requiremen
 
 
 ## Run Visualizer
-We provides guidance document ''' EnergyCloudSim Visualizer 사용법.docx '''.
+We provide guidance document ''' EnergyCloudSim Visualizer Manual.docx '''.
 
 Run with the following script:
 
